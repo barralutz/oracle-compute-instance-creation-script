@@ -9,7 +9,7 @@ if (!computeWindow)
 	throw new Error("Failed to find iframe window");
 
 const createBtn = computeWindow.document.querySelector(".oui-savant__Panel--Footer .oui-button.oui-button-primary");
-if (!createBtn || createBtn.textContent !== "Create")
+if (!createBtn || createBtn.textContent !== "Crear")
 	throw new Error("Failed to find 'Create' button");
 
 const contentsElmt = computeWindow.document.querySelector(".oui-savant__Panel--Contents");
